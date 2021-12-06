@@ -38,7 +38,7 @@ public class Q005 {
 			}
 		}
 
-		for (int i = 0; i < index - 1; i++) {
+		for (int i = 0; i < index ; i++) {
 			if (list.get(i) < list.get(i + 1)) {
 				continue;
 			} else {
@@ -48,7 +48,7 @@ public class Q005 {
 
 		}
 
-		for (int i = index; i < list.size() - 2; i++) {
+		for (int i = index; i < list.size() - 1; i++) {
 			if (list.get(i) > list.get(i + 1)) {
 				continue;
 			} else {
