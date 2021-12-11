@@ -21,6 +21,7 @@ public class Q0082 {
 
 		 */
 		
+		System.out.println("***** QA *****");
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter value of two String");
 		String str1=scan.next();

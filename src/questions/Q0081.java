@@ -19,7 +19,7 @@ public class Q0081 {
 		Ornek : "Pide" ve"EDİP" anagram ifadelerdir..
 
 		 */
-		
+		System.out.println("***** Array ile Cozum *****");
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter value of two String");
 		String str1=scan.next();

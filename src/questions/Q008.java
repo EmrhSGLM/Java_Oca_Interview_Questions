@@ -21,7 +21,7 @@ public class Q008 {
 		Ornek : "Pide" ve"EDİP" anagram ifadelerdir..
 
 		 */
-		
+		System.out.println("***** List ile Cozum *****");
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter value of two String");
 		String str1=scan.next();
@@ -29,22 +29,19 @@ public class Q008 {
 		List<String> list1=new ArrayList<>();
 		List<String> list2 = new ArrayList<>();
 		
-		for (int i = 0; i < str1.length(); i++) {
-			if (!list1.contains(str1.toLowerCase().substring(i, i+1))) {
-				list1.add(str1.toLowerCase().substring(i, i+1));
-			}
+		for (int i = 0; i < str1.length(); i++) {			
+				list1.add(str1.toLowerCase().substring(i, i+1));			
 		}
-		for (int i = 0; i < str2.length(); i++) {
-			if (!list2.contains(str2.toLowerCase().substring(i, i+1))) {
-				list2.add(str2.toLowerCase().substring(i, i+1));
-			}
+		
+		for (int i = 0; i < str2.length(); i++) {			
+				list2.add(str2.toLowerCase().substring(i, i+1));			
 		}
 		
 		Collections.sort(list1);
 		Collections.sort(list2);	
 		
 		
-		if (list1.equals(list2)) {
+		if (list1.equals(list2) ) {
 			System.out.println("It is Anagram");
 		} else {
 			System.out.println("It is not Anagram");
