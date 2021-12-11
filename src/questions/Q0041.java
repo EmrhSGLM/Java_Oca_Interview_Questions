@@ -3,7 +3,7 @@ package questions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C0041 {
+public class Q0041 {
 
 	public static void main(String[] args) {
 
