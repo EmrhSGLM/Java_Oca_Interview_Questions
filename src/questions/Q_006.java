@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q006 {
+public class Q_006 {
 
 	public static void main(String[] args) {
 		

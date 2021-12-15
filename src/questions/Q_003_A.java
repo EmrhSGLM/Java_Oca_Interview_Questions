@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q003 {
+public class Q_003_A {
 
 	
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@ package questions;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q0081 {
+public class Q_008_B {
 
 	public static void main(String[] args) {
 		/*

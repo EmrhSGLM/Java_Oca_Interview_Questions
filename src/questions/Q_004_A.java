@@ -2,7 +2,7 @@ package questions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q004 {
+public class Q_004_A {
 
 	public static void main(String[] args) {
 
