@@ -23,7 +23,7 @@ public class Q_012 {
 		String str=scan.nextLine();
 		
 		palindrome(str);
-
+		scan.close();
 	}
 
 	private static void palindrome(String str) {
