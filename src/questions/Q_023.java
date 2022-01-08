@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Arrays;
 
-public class Q023 {
+public class Q_023 {
 
 	public static void main(String[] args) {
 		
