@@ -11,9 +11,7 @@ public class QQQ {
 				System.out.print(arr[i][j] + " ");
 				if (arr[i][j].equals("B")) {
 					continue;
-
 				}
-
 			}
 			continue;
 		}

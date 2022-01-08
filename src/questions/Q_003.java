@@ -3,8 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q_003_B {
+public class Q_003{
 
+	
 	public static void main(String[] args) {
 		/*
 		 * Count the words in a String one by one Girilen bir String'deki kelimeleri tek
@@ -20,6 +21,8 @@ public class Q_003_B {
 
 		String arr[] = str.split(" ");
 		List<String> list = new ArrayList<>();
+		List<String> list2=new ArrayList<>();
+		
 
 		for (int i = 0; i < arr.length; i++) {
 			int sayac = 1;
@@ -30,13 +33,18 @@ public class Q_003_B {
 			}
 
 			if (!list.contains(arr[i])) {
-				list.add(arr[i]);
-				System.out.print(arr[i] + " = " + sayac + " ");
-			}
-
-		}
-		scan.close();
+				list.add(arr[i] );
+				list2.add(arr[i] + " = " + sayac);
+			}	
 
 	}
+		
+		
+		for (int k = 0; k < list2.size() - 1; k++) {
+			System.out.print(list2.get(k)+", " );
+		}
+		System.out.print(list2.get(list2.size() - 1));
+		scan.close();
 
+}
 }

@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Scanner;
 
-public class Q_009_A {
+public class Q_009 {
 
 	public static void main(String[] args) {
 		/*
